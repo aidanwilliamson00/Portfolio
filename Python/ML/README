@@ -1,0 +1,15 @@
+IT 348 ML Project
+By: Aidan Williamson
+
+To use program:
+-First run the ML.py file in the console with the following command
+        $ python3 ML.py
+-Then a menu will show up with four options
+        -1.Train
+        -2.Classify
+        -3.Test Accuracy
+        -4.K-Fold Train
+        -5.Print Confusion Matrix
+        -6.Quit
+-Simply enter the desired number into the console and hit enter to continue
+        Note: In order to classify, test accuracy, or print confusion matrix, you must train with      either menu option 1 or 4.
