@@ -1,2 +1,23 @@
-tiny shell program
+Tiny Shell Program (tsh)
 By: Aidan Williamson
+
+Compile: 
+  $ make
+Run(execvp()):
+  $ ./tsh
+Run(execlp()):
+  $ ./tsh -execlp
+
+
+Basic Built-in Commands:
+  exit
+    -exits current thread
+  cd
+    -changes directory
+  path
+    -with 0 args, prints current path vars
+    -with >0 args, adds paths to the path var seperated by ':'
+      -ex: >path /bin:/usr/bin:./
+  history
+    -with 0 args, prints the last 50 used commands on the current thread
+    -with 1 arg(number from 1 to 50), prints n most recently used commands
